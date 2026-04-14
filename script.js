@@ -96,3 +96,4 @@ window.addEventListener('load', () => {
             splash.style.display = 'none';
         }, 500); 
     }, 4000);
+ });
