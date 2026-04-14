@@ -49,3 +49,17 @@ li { display: flex; justify-content: space-between; align-items: center; padding
 .actions button { margin-left: 5px; padding: 5px 10px; font-size: 12px; }
 .btn-edit { background: #ffc107; color: black; }
 .btn-delete { background: #dc3545; color: white; }
+/* Efeito de item marcado/riscado */
+.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Estilo para o botão de "Desmarcar Tudo" */
+.clear-all-btn {
+    width: 100%;
+    margin-top: 20px;
+    background: #6c757d;
+    padding: 15px;
+    font-weight: bold;
+}
